@@ -32,9 +32,14 @@ class Gear:
     def calc_pitch_diameter(self):
         return self.normal_module * self.number_of_teeth / cos(self.helix_angle)
 
+    def __get_pitch_diameter(self):
+        return self.__pitch_diameter
+
+
     number_of_teeth = property(__get_number_of_teeth)
     normal_module = property(__get_normal_module)
     helix_angle = property(__get_helix_angle)
     helix_direction = property(__get_helix_direction)
     left_flank = property(__get_left_flank)
     right_flank = property(__get_right_flank)
+    pitch_diameter = property(__get_pitch_diameter)
