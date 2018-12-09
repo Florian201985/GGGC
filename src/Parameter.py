@@ -14,3 +14,7 @@ class DirectionHelixAngle(Enum):
 class DirectionWorm(Enum):
     LEFT = -1
     RIGHT = 1
+
+
+class Precision:
+    eps_normal = 0.00001
