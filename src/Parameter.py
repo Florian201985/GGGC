@@ -16,5 +16,9 @@ class DirectionWorm(Enum):
     RIGHT = 1
 
 
+class InternalExternal(Enum):
+    INTERNAL = -1
+    EXTERNAL = 1
+
 class Precision:
     eps_normal = 0.00001

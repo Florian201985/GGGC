@@ -10,9 +10,11 @@ class Export:
     def write_dat(gear):
         f = open("GeneratingGrinding.dat", "w+")
         f.write("Gear data:\n")
-        f.write("   Number of teeth.............z.......: %6.2f\n" % gear.number_of_teeth)
+        value = gear.internal_external.value * gear.number_of_teeth
+        f.write("   Number of teeth.............z.......: %6.2f\n" % value)
         f.write("   Normal module...............mn......: %6.2f mm\n" % gear.normal_module)
-        f.write("   Helix angle.................beta....: %6.2f °\n" % Converter.rad2grad(gear.helix_angle))
+        value = gear.helix_direction.value * Converter.rad2grad(gear.helix_angle)
+        f.write("   Helix angle.................beta....: %6.2f °\n" % value)
         f.write("   Pitch Diameter..............d.......: %6.2f mm\n" % gear.pitch_diameter)
         f.write("   Left Flank:\n")
         f.write("      Normal Pressure Angle....alpha_n.: %6.2f °\n" % Converter.rad2grad(gear.left_flank.pressure_angle))
@@ -26,9 +28,11 @@ class Export:
         f = open("GeneratingGrinding.md", "w+")
         f.write("# Generating Gear Grinding Summary\n")
         f.write("## Gear data\n")
-        f.write("* Number of teeth z: %6.2f\n" % gear.number_of_teeth)
+        value = gear.internal_external.value * gear.number_of_teeth
+        f.write("* Number of teeth z: %6.2f\n" % value)
         f.write("*  Normal module m<sub>n</sub>: %6.2f mm\n" % gear.normal_module)
-        f.write("*  Helix angle &beta;: %6.2f °\n" % Converter.rad2grad(gear.helix_angle))
+        value = gear.helix_direction.value * Converter.rad2grad(gear.helix_angle)
+        f.write("*  Helix angle &beta;: %6.2f °\n" % value)
         f.write("*  Pitch Diameter d: %6.2f mm\n" % gear.pitch_diameter)
         f.write("\n")
         f.write("### Left Flank:\n")
