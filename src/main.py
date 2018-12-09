@@ -6,13 +6,14 @@ from src.Gear import Gear
 control_file = Import.read_ini()
 control_file_data = Import.read_ste(control_file)
 
-left_flank = Flank(Parameter.FlankSide.LEFT, control_file_data["normal pressure angle left"])
-right_flank = Flank(Parameter.FlankSide.RIGHT, control_file_data["normal pressure angle right"])
 z = control_file_data["number of teeth"]
 mn = control_file_data["normal module"]
 beta = control_file_data["helix angle"]
-beta_direction = control_file_data["helix angle direction"]
-gear = Gear(z, mn, beta, Parameter.DirectionHelixAngle.RIGHT, left_flank, right_flank)
+alpha_left = control_file_data["normal pressure angle left"]
+left_flank = Flank(Parameter.FlankSide.LEFT, alpha_left, beta)
+alpha_right = control_file_data["normal pressure angle right"]
+right_flank = Flank(Parameter.FlankSide.RIGHT, alpha_right, beta)
+gear = Gear(z, mn, beta, left_flank, right_flank)
 
 
 export = Export
