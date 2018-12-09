@@ -10,9 +10,9 @@ z = control_file_data["number of teeth"]
 mn = control_file_data["normal module"]
 beta = control_file_data["helix angle"]
 alpha_left = control_file_data["normal pressure angle left"]
-left_flank = Flank(Parameter.FlankSide.LEFT, alpha_left, beta)
+left_flank = Flank(Parameter.FlankSide.LEFT, alpha_left, beta, mn, z)
 alpha_right = control_file_data["normal pressure angle right"]
-right_flank = Flank(Parameter.FlankSide.RIGHT, alpha_right, beta)
+right_flank = Flank(Parameter.FlankSide.RIGHT, alpha_right, beta, mn, z)
 gear = Gear(z, mn, beta, left_flank, right_flank)
 
 

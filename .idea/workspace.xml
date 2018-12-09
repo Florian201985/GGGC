@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53d9a734-e583-4761-b1de-f2904cc73791" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_Flank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Export.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Export.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Flank.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gear.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gear.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_Gear.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Gear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_Flank.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Flank.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +18,11 @@
     <SUITE FILE_PATH="coverage/GGGC$Unittests_for_test_Gear_GearTest_test_calc_pitch_diameter_spur_gear.coverage" NAME="Unittests for test_Gear.GearTest.test_calc_pitch_diameter_spur_gear Coverage Results" MODIFIED="1544359131289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GGGC$Unittests_in_test_Import_py.coverage" NAME="Unittests in test_Import.py Coverage Results" MODIFIED="1544343418519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GGGC$Unittests_in_test_Flank_py.coverage" NAME="Unittests in test_Flank.py Coverage Results" MODIFIED="1544362140245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/GGGC$Unittests_for_test_Flank_FlankTest.coverage" NAME="Unittests for test_Flank.FlankTest Coverage Results" MODIFIED="1544362326483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GGGC$Unittests_for_test_Flank_FlankTest_test_calc_base_circle_diameter_helical_gear.coverage" NAME="Unittests for test_Flank.FlankTest.test_calc_base_circle_diameter_helical_gear Coverage Results" MODIFIED="1544363815215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/GGGC$Unittests_for_test_Flank_FlankTest.coverage" NAME="Unittests for test_Flank.FlankTest Coverage Results" MODIFIED="1544364020414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GGGC$Unittests_for_test_Gear_GearTest.coverage" NAME="Unittests for test_Gear.GearTest Coverage Results" MODIFIED="1544360156971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GGGC$Unittests_in_test_Gear_py.coverage" NAME="Unittests in test_Gear.py Coverage Results" MODIFIED="1544358951279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/GGGC$main.coverage" NAME="main Coverage Results" MODIFIED="1544363256477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GGGC$main.coverage" NAME="main Coverage Results" MODIFIED="1544364028283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/GGGC$Unittests_for_test_Flank_FlankTest_test_calc_transverse_pressure_angle_spur_gear.coverage" NAME="Unittests for test_Flank.FlankTest.test_calc_transverse_pressure_angle_spur_gear Coverage Results" MODIFIED="1544362270592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="FileEditorManager">
@@ -34,8 +32,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
                   <folding>
                     <element signature="e#0#33#0" expanded="true" />
                   </folding>
@@ -46,8 +44,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Export.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+                <state relative-caret-position="187">
+                  <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
                   <folding>
                     <element signature="e#0#11#0" expanded="true" />
                   </folding>
@@ -70,8 +68,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Flank.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="7" column="95" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
+                <state relative-caret-position="409">
+                  <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+                  <folding>
+                    <element signature="e#0#12#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -107,8 +108,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/test_Flank.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+                <state relative-caret-position="208">
+                  <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -143,10 +144,10 @@
         <option value="$PROJECT_DIR$/src/Import.py" />
         <option value="$PROJECT_DIR$/src/Parameter.py" />
         <option value="$PROJECT_DIR$/src/Gear.py" />
-        <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/tests/test_Gear.py" />
-        <option value="$PROJECT_DIR$/tests/test_Flank.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/Flank.py" />
+        <option value="$PROJECT_DIR$/tests/test_Flank.py" />
         <option value="$PROJECT_DIR$/src/Export.py" />
       </list>
     </option>
@@ -255,6 +256,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_Flank.FlankTest.test_calc_base_circle_diameter_helical_gear" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="GGGC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Flank.FlankTest.test_calc_base_circle_diameter_helical_gear&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_Flank.FlankTest.test_calc_transverse_pressure_angle_spur_gear" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="GGGC" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,21 +283,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_Flank.FlankTest.test_calc_transverse_pressure_angle_spur_gear&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_Gear.GearTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="GGGC" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Gear.GearTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -304,9 +305,9 @@
       <list>
         <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Unittests for test_Flank.FlankTest" />
+        <item itemvalue="Python tests.Unittests for test_Flank.FlankTest.test_calc_base_circle_diameter_helical_gear" />
         <item itemvalue="Python tests.Unittests for test_Flank.FlankTest.test_calc_transverse_pressure_angle_spur_gear" />
         <item itemvalue="Python tests.Unittests in test_Flank.py" />
-        <item itemvalue="Python tests.Unittests for test_Gear.GearTest" />
       </list>
     </recent_temporary>
   </component>
@@ -324,20 +325,11 @@
       <workItem from="1544288703383" duration="6439000" />
       <workItem from="1544341695934" duration="5649000" />
       <workItem from="1544347948126" duration="726000" />
-      <workItem from="1544353092516" duration="4580000" />
+      <workItem from="1544353092516" duration="5340000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_Gear_GearTest - 2018.12.09 at 13h 44m 44s.xml">
-      <configuration name="Unittests for test_Gear.GearTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_Gear_GearTest - 2018.12.09 at 13h 45m 34s.xml">
-      <configuration name="Unittests for test_Gear.GearTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_Gear_GearTest - 2018.12.09 at 13h 45m 55s.xml">
-      <configuration name="Unittests for test_Gear.GearTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_Gear_GearTest - 2018.12.09 at 13h 55m 57s.xml">
       <configuration name="Unittests for test_Gear.GearTest" configurationId="tests" />
     </history-entry>
@@ -359,9 +351,18 @@
     <history-entry file="Unittests_for_test_Flank_FlankTest - 2018.12.09 at 14h 32m 06s.xml">
       <configuration name="Unittests for test_Flank.FlankTest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_Flank_FlankTest - 2018.12.09 at 14h 55m 57s.xml">
+      <configuration name="Unittests for test_Flank.FlankTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Flank_FlankTest_test_calc_base_circle_diameter_helical_gear - 2018.12.09 at 14h 56m 55s.xml">
+      <configuration name="Unittests for test_Flank.FlankTest.test_calc_base_circle_diameter_helical_gear" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_Flank_FlankTest - 2018.12.09 at 14h 57m 03s.xml">
+      <configuration name="Unittests for test_Flank.FlankTest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20966000" />
+    <option name="totallyTimeSpent" value="21726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
@@ -445,16 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_Flank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gear.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -465,27 +456,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="95" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_Flank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Export.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
