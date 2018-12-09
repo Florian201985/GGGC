@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="53d9a734-e583-4761-b1de-f2904cc73791" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Export.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Export.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Flank.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_Flank.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Flank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gear.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gear.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +20,7 @@
     <SUITE FILE_PATH="coverage/GGGC$Unittests_for_test_Flank_FlankTest.coverage" NAME="Unittests for test_Flank.FlankTest Coverage Results" MODIFIED="1544364020414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GGGC$Unittests_for_test_Gear_GearTest.coverage" NAME="Unittests for test_Gear.GearTest Coverage Results" MODIFIED="1544360156971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/GGGC$Unittests_in_test_Gear_py.coverage" NAME="Unittests in test_Gear.py Coverage Results" MODIFIED="1544358951279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/GGGC$main.coverage" NAME="main Coverage Results" MODIFIED="1544364028283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/GGGC$main.coverage" NAME="main Coverage Results" MODIFIED="1544365286355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/GGGC$Unittests_for_test_Flank_FlankTest_test_calc_transverse_pressure_angle_spur_gear.coverage" NAME="Unittests for test_Flank.FlankTest.test_calc_transverse_pressure_angle_spur_gear Coverage Results" MODIFIED="1544362270592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="FileEditorManager">
@@ -32,8 +30,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#33#0" expanded="true" />
                   </folding>
@@ -41,11 +39,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Export.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+                <state relative-caret-position="171">
+                  <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
                   <folding>
                     <element signature="e#0#11#0" expanded="true" />
                   </folding>
@@ -53,11 +51,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Gear.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+                <state relative-caret-position="147">
+                  <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
                   </folding>
@@ -143,12 +141,12 @@
         <option value="$PROJECT_DIR$/tests/test_Import.py" />
         <option value="$PROJECT_DIR$/src/Import.py" />
         <option value="$PROJECT_DIR$/src/Parameter.py" />
-        <option value="$PROJECT_DIR$/src/Gear.py" />
         <option value="$PROJECT_DIR$/tests/test_Gear.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/Flank.py" />
         <option value="$PROJECT_DIR$/tests/test_Flank.py" />
         <option value="$PROJECT_DIR$/src/Export.py" />
+        <option value="$PROJECT_DIR$/src/Gear.py" />
       </list>
     </option>
   </component>
@@ -325,14 +323,11 @@
       <workItem from="1544288703383" duration="6439000" />
       <workItem from="1544341695934" duration="5649000" />
       <workItem from="1544347948126" duration="726000" />
-      <workItem from="1544353092516" duration="5340000" />
+      <workItem from="1544353092516" duration="6460000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_Gear_GearTest - 2018.12.09 at 13h 55m 57s.xml">
-      <configuration name="Unittests for test_Gear.GearTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_Flank_py - 2018.12.09 at 14h 29m 00s.xml">
       <configuration name="Unittests in test_Flank.py" configurationId="tests" />
     </history-entry>
@@ -360,9 +355,12 @@
     <history-entry file="Unittests_for_test_Flank_FlankTest - 2018.12.09 at 14h 57m 03s.xml">
       <configuration name="Unittests for test_Flank.FlankTest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_Flank_FlankTest - 2018.12.09 at 15h 00m 21s.xml">
+      <configuration name="Unittests for test_Flank.FlankTest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21726000" />
+    <option name="totallyTimeSpent" value="22846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
@@ -446,26 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Flank.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -488,10 +466,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Export.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        <state relative-caret-position="171">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

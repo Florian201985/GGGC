@@ -13,6 +13,8 @@ class Export:
         value = gear.internal_external.value * gear.number_of_teeth
         f.write("   Number of teeth...............z.......: %6.2f\n" % value)
         f.write("   Normal module.................mn......: %6.2f mm\n" % gear.normal_module)
+        f.write("   Transverse module.............mt......: %6.2f mm\n" % gear.transverse_module)
+        f.write("   Axial module..................mx......: %6.2f mm\n" % gear.axial_module)
         value = gear.helix_direction.value * Converter.rad2grad(gear.helix_angle)
         f.write("   Helix angle...................beta....: %6.2f °\n" % value)
         f.write("   Pitch Diameter................d.......: %6.2f mm\n" % gear.pitch_diameter)
@@ -39,6 +41,8 @@ class Export:
         value = gear.internal_external.value * gear.number_of_teeth
         f.write("* Number of teeth z: %6.2f\n" % value)
         f.write("*  Normal module m<sub>n</sub>: %6.2f mm\n" % gear.normal_module)
+        f.write("*  Transverse module m<sub>t</sub>: %6.2f mm\n" % gear.transverse_module)
+        f.write("*  Axial module m<sub>a</sub>: %6.2f mm\n" % gear.axial_module)
         value = gear.helix_direction.value * Converter.rad2grad(gear.helix_angle)
         f.write("*  Helix angle &beta;: %6.2f °\n" % value)
         f.write("*  Pitch Diameter d: %6.2f mm\n" % gear.pitch_diameter)
